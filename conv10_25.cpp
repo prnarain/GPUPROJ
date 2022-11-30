@@ -83,7 +83,6 @@ for (int r=0; r<tempcount; r = r+100){
         // useful params
         size_t imgSize = sizeof(unsigned char)*imgWidth*imgHeight*imgChans;
         size_t filterSize = sizeof(float)*FILTER_WIDTH*FILTER_WIDTH;
-        //GpuTimer timer0, timer1, timer2, timer3;
 
         // allocate host memory
         float* h_filter = (float*)malloc(filterSize);
