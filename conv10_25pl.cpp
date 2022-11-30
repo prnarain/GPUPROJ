@@ -74,9 +74,9 @@ for (int r=0; r<tempcount; r = r+100){
     for (size_t i=0; i<r; i++){
 
         // for testing taken the image barbara
-        //Mat image = imread("barbara.jpg",CV_LOAD_IMAGE_COLOR) ;
+        //Mat img = imread("barbara.jpg",CV_LOAD_IMAGE_COLOR) ;
 
-        Mat image = imread(fn[i],CV_LOAD_IMAGE_COLOR) ;
+        Mat img = imread(fn[i],CV_LOAD_IMAGE_COLOR) ;
 
         unsigned char* h_inImg = img.data;
 
